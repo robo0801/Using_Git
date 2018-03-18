@@ -9,11 +9,11 @@ github 프로젝트 만들어 등록하기
 - start project 를 누르고 이메일 인증을 합니다.
 - 인증 후 다시 start project를 누릅니다.
 
-![start project](https://raw.githubusercontent.com/robo0801/Using_Git/master/entergit_pic/1.jpg)
+![start project](./entergit_pic/1.jpg)
 
 # 3. 저장소를 만들기
 - 소스 공유가 가능해짐
-![저장소 만들기](https://raw.githubusercontent.com/robo0801/Using_Git/master/entergit_pic/2.jpg)
+![저장소 만들기](./entergit_pic/2.jpg)
 
 ```
 - Owner 는 소유자를 말합니다. 회원가입 할 때 Username 부분에 기입했던 닉네임이 들어가 있음,
@@ -25,7 +25,7 @@ github 프로젝트 만들어 등록하기
 
 # 4. 저장소 연결 시키기
 
-![저장소 연결시키기](https://raw.githubusercontent.com/robo0801/Using_Git/master/entergit_pic/3.jpg)
+![저장소 연결시키기](./entergit_pic/3.jpg)
 
 ```
 - 이 창을 잠시 밑으로 내려놓고 다음단계로 넘어갑니다.
@@ -40,7 +40,7 @@ github 프로젝트 만들어 등록하기
 
 # 6. 폴더를 만들어주고 등록하기 위한 준비
 
-![저장소 연결시키기](https://raw.githubusercontent.com/robo0801/Using_Git/master/entergit_pic/4.jpg)
+![저장소 연결시키기](./entergit_pic/4.jpg)
 
 ```
 - git bash 창을 켜서 폴더를 만듭니다.
