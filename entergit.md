@@ -1,17 +1,19 @@
-github 프로젝트 만들어 등록하기
+# github 프로젝트 만들어 등록하기
 ===============================
+## 0. git download
+<https://desktop.github.com/>
 
-# 1. github 홈페이지를 방문하여 회원가입 진행
+## 1. github 홈페이지를 방문하여 회원가입 진행
 * <https://github.com>
 
-# 2. start project
+## 2. start project
 
 - start project 를 누르고 이메일 인증을 합니다.
 - 인증 후 다시 start project를 누릅니다.
 
 ![start project](./entergit_pic/1.jpg)
 
-# 3. 저장소를 만들기
+## 3. 저장소를 만들기
 - 소스 공유가 가능해짐
 
 ![저장소 만들기](./entergit_pic/2.jpg)
@@ -24,14 +26,14 @@ github 프로젝트 만들어 등록하기
 - Create repository 를 눌러 주시면 저장소가 만들어짐.
 ```
 
-# 4. 저장소 연결 시키기
+## 4. 저장소 연결 시키기
 
 ![저장소 연결시키기](./entergit_pic/3.jpg)
 
 ```
 - 이 창을 잠시 밑으로 내려놓고 다음단계로 넘어갑니다.
 ```
-# 5. 사용자 이름과 메일 주소 입력(경고문고와 임의의 사용자 계정 이름 사용 방지)
+## 5. 사용자 이름과 메일 주소 입력(경고문고와 임의의 사용자 계정 이름 사용 방지)
 
 ```
 - 다음 명령어를 git bash 창에 입력합니다.
@@ -39,7 +41,7 @@ github 프로젝트 만들어 등록하기
   $ git config --global user.email 메일주소
 ```
 
-# 6. 폴더를 만들어주고 등록하기 위한 준비
+## 6. 폴더를 만들어주고 등록하기 위한 준비
 
 ![저장소 연결시키기](./entergit_pic/4.jpg)
 
@@ -55,7 +57,7 @@ github 프로젝트 만들어 등록하기
 ```
 
 
-# 7. 다른 파일이나 폴더 업로드
+## 7. 다른 파일이나 폴더 업로드
 ```
 - 폴더 만들기
   $ mkdir 폴더명
@@ -74,5 +76,15 @@ github 프로젝트 만들어 등록하기
   $ git push (-u origin master)
 ```
 
-# 출처
+## 8. 파일 수정 or 추가 후 업로드
+```
+- 파일 추가
+  $ git add 파일이름
+- 커밋트
+  $ git commit -m master
+- 업로드
+  $ git push
+```
+
+## 출처
 <http://recoveryman.tistory.com/251?category=635733>
